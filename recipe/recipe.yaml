@@ -1,5 +1,5 @@
 context:
-  version: "0.6.1"
+  version: "0.7.0"
 
 recipe:
   name: lance-namespace-split
@@ -7,7 +7,7 @@ recipe:
 
 source:
   url: https://github.com/lance-format/lance-namespace/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 87ffee91b64ea7c3486f83a004298f374e9a7be8b4fbed4a631e07bf1c465fac
+  sha256: 8ad9f61e7bef8c6ce2024a6017e5c5c6cd3fe5ec69432eca9cd22c98ff76857a
 
 build:
   number: 0
