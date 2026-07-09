@@ -170,5 +170,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@killua156](https://github.com/killua156/)
 * [@yhori991](https://github.com/yhori991/)
 
