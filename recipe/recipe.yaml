@@ -38,7 +38,9 @@ outputs:
           imports:
             - lance_namespace_urllib3_client
           pip_check: true
-          python_version: ${{ python_min }}.*
+          python_version:
+            - ${{ python_min }}.*
+            - "*"
     about:
       summary: Auto-generated Python client for Lance Namespace REST APIs
       description: Lance Namespace Specification
@@ -70,7 +72,9 @@ outputs:
           imports:
             - lance_namespace
           pip_check: true
-          python_version: ${{ python_min }}.*
+          python_version:
+            - ${{ python_min }}.*
+            - "*"
     about:
       summary: Lance Namespace interface and plugin registry
       description: Lance Namespace interface and plugin registry
