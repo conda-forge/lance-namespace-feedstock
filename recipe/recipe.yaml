@@ -1,5 +1,5 @@
 context:
-  version: "0.11.1"
+  version: "0.13.0"
 
 recipe:
   name: lance-namespace-split
@@ -7,7 +7,7 @@ recipe:
 
 source:
   url: https://github.com/lance-format/lance-namespace/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 74208f0cf9f45baf94364badac1e0ae3f499d9ca77ab6d68a16b1dadbd84c5e8
+  sha256: 8250cd149a3d860ac26772f37fe806c7660b8d60f35d2bab1cbdc2e8327d41f5
 
 build:
   number: 0
@@ -38,7 +38,7 @@ outputs:
           imports:
             - lance_namespace_urllib3_client
           pip_check: true
-          python_version: 
+          python_version:
             - ${{ python_min }}.*
             - "*"
     about:
@@ -72,7 +72,7 @@ outputs:
           imports:
             - lance_namespace
           pip_check: true
-          python_version: 
+          python_version:
             - ${{ python_min }}.*
             - "*"
     about:
